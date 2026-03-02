@@ -31,14 +31,18 @@ ul a:hover{
 
 .card-container{
     display: flex;        
-    gap: 20px;          
+    gap: 20px; 
+    flex-direction: column;         
     padding: 20px;
+    margin: 20px;
 }
 
-.card{
+.card-1{
+
     background: #f4f4f4;
     padding: 20px;
-    flex: 1;    
+    flex: 1;
+    margin: 20px;    
     align-items: center; 
     text-align: center;
     border-radius: 10px;
